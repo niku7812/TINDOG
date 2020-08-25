@@ -1,0 +1,181 @@
+body{font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#title{background-color: #ff4c68;}
+
+h1{
+  font-family: "Montserrat";
+line-height: 1.5;
+font-size: 3.2rem;
+color:white;
+}
+
+
+
+
+
+h2{font-family: "Montserrat";
+font-size: 3rem;
+line-height: 1.5;
+}
+
+
+
+
+h3{font-family: "Montserrat";
+font-size: 1.5rem;}
+
+
+
+
+p{color:#8f8f8f;}
+
+.container-fluid{padding:3% 15% 7%;}
+
+/* NVIGATION BAR */
+
+.navbar{padding: 0 0 4.5rem;}
+
+.nav-item{padding-left: 18px;
+padding-right: 18px;
+}
+
+.navbar-brand{font-family: "Ubuntu";
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.nav-link{font-size: 1.2rem;
+font-weight: lighter;
+ }
+
+
+
+ /* DOWNLOAD BUTTONS */
+.download-button{margin:5% 3% 5% 0;}
+
+/* TITLE IMAGE */
+
+.title-image{
+  width:60%;
+transform: rotate(25deg);
+position:absolute;
+right:30%;}
+
+
+
+/* FEATURES */
+
+
+#features{background-color: white;padding: 7% 15% ;
+position:relative;
+}
+
+
+.feat{color:white;}
+
+.circle{color:#ef8172;
+margin-bottom: 1rem;
+}
+
+
+.feature-box{padding:4.5%;
+  text-align: center;
+}
+
+
+
+.circle:hover{color: #ff4c68;}
+
+
+
+/* TESTIMONIALS */
+
+
+
+#testimonials{
+text-align: center;
+background-color: #ef8172;}
+
+
+.carousel-item{padding:7% 15%;}
+
+
+.testimonial-image{width:10%;      /*for making image small*/
+border-radius:100% ;               /*for making image round*/
+margin:20px;}
+
+.pebble{color:white;}
+
+
+.testimonial-text{color:white;}
+
+
+.beverly{color:white;}
+
+
+
+
+/* PRESS SECTION  */
+
+
+
+#press{background-color: #ef8172;
+text-align:center;
+padding-bottom: 3%;}
+
+
+.press-logo{width:15%;
+margin:20px 20px 50px;}
+
+
+
+
+
+
+/* PRICING */
+
+
+#pricing{padding:100px;
+text-align: center;}
+
+.pricing-column{padding:3% 2%;}
+
+
+
+
+
+@media (max-width:1028px) {
+  #title{text-align: center;}
+  .title-image{position:static;
+  transform: rotate(0);}
+
+}
+
+
+/* CTA SECTION */
+
+
+#cta{padding:7% 15%;
+  background-color: #ff4c68;
+text-align: center;}
+
+.find{color:white;
+font-size: 3.5rem;
+line-height: 1.5;}
+
+
+
+
+
+/* FOOTER  */
+
+
+#footer{text-align: center;
+background-color: white;
+padding: 7% 15%;}
+
+.footer-icon{margin:3% 1% 2%;}
+
+
+.fdownload-button{margin: 5% 3% 5% 0;}
